@@ -70,7 +70,7 @@ heightW = windowHeight
     frank.addAnimation("runningBack", frankRunningReverse)
     frank.addAnimation("collided", frankCollided)
     frank.scale = 0.35
-    frank.debug = true
+    //frank.debug = true
 
     platfrom = createSprite(widthW/2, heightW - 25,widthW * 100,75)
     platfrom.visible = false
@@ -407,7 +407,7 @@ function spawnSimplePlat(itemPosX,itemNum){
   var obstacle = createSprite(itemPosX + 250 * itemNum,heightArray[randY],5,5)
       obstacle.addImage("JumpingPlatform", obstacleImg)
       obstacle.scale = 0.25
-      obstacle.debug = true
+      //obstacle.debug = true
       itemArray.push(obstacle)
       obstacleGroup.add(obstacle)
 
