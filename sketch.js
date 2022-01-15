@@ -73,11 +73,12 @@ heightW = windowHeight
     frank.debug = true
 
     platfrom = createSprite(widthW/2, heightW - 25,widthW * 100,75)
+    platfrom.visible = false
 
     platfromUp = createSprite(widthW/2, 10,widthW * 100, 30)
-    platfromUp.visible = true
+    platfromUp.visible = false
 
-    startPlat = createSprite(frank.x, heightW / 2 + 200,300,heightW / 2 - 50)
+    startPlat = createSprite(frank.x, heightW / 2 + 250,300,heightW / 2 - 50)
 
     contactPlat = createSprite(widthW / 2, heightW - 30, widthW * 100,75)
     contactPlat.shapeColor = "Red"
